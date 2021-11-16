@@ -1,0 +1,22 @@
+.card-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-buton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-link {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
