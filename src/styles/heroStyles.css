@@ -34,6 +34,10 @@
     margin-bottom: 40px;
 }
 
+.name:hover {
+    color: rgba(94, 94, 94, 0.426);
+}
+
 .name-closing  {
     font-size: 3rem;
     font-weight: 700;
@@ -78,11 +82,11 @@
 .avatar img {
     max-width: 350px;
     border-radius: 20%;
+    transition: 0.8s;
 }
 
 .avatar img:hover {
     transform: scale(1.1);
-    transition: 0.5s;
     border-radius: 20%;
 }
 
@@ -92,4 +96,38 @@
     background-position: bottom;
     background-size: 100% 150px;
     height: 200px;
+    border: none;
+}
+
+@media screen and (max-width: 700px) {
+    .hero-content {
+        display: block;
+    }
+
+    .avatar {
+        background-image: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .avatar img {
+        max-width: 200px;
+        border-radius: 20%;
+    }
+
+    .description {
+        display: block;
+        margin: 0;
+        width: auto;
+    }
+
+    .name, .name-closing {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .object {
+        font-size: 0.8rem;
+    }
 }
