@@ -81,7 +81,7 @@
 }
 
 .avatar img {
-  max-width: 100%;
+  max-width: 350px;
   border-radius: 20%;
   transition: 0.8s;
 }
