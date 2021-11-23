@@ -2,6 +2,7 @@ import venus from '../assets/websites/venus.png';
 import arch from '../assets/websites/arch.png';
 import bravo from '../assets/websites/bravo.png';
 import jeremy from '../assets/websites/jeremy.png';
+import blogplace from '../assets/websites/blogplace.png';
 
 const data = [
   {
@@ -31,6 +32,13 @@ const data = [
     github: 'https://github.com/monsterkosh/jeremy-project',
     image: jeremy,
     developer: 'Team Jeremy',
+  },
+  {
+    title: 'BlogPlace',
+    url: 'https://blogplace.netlify.app/',
+    github: 'https://github.com/monsterkosh/final-blog',
+    image: blogplace,
+    developer: 'Emiliano Franco',
   },
 ];
 

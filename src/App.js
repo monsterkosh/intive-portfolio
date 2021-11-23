@@ -1,6 +1,7 @@
 import Hero from './componets/Hero';
 import Navbar from './componets/Navbar';
 import Cards from './componets/Card';
+import './styles/app.css';
 
 function App() {
   return (
