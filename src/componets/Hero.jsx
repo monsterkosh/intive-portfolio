@@ -35,7 +35,10 @@ const Hero = () => {
                 </div>
                 <div className='instagram'>
                   <span className='green'>instagram:</span>{' '}
-                  <a href='https://www.instagram.com/monsterkosh'>
+                  <a
+                    className='istagram-link'
+                    href='https://www.instagram.com/monsterkosh'
+                  >
                     'https://www.instagram.com/monsterkosh'
                   </a>
                   ,

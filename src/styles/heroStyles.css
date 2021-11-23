@@ -52,6 +52,7 @@
 .position,
 .description a {
   color: rgba(214, 214, 214, 0.76);
+  width: 100%;
 }
 
 .object {
@@ -131,5 +132,18 @@
 
   .object {
     font-size: 0.8rem;
+  }
+
+  .istagram-link {
+    width: 100%;
+    overflow: hidden;
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .avatar img {
+    max-width: 300px;
+    border-radius: 20%;
   }
 }
