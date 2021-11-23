@@ -2,10 +2,7 @@ import venus from '../assets/websites/venus.png';
 import arch from '../assets/websites/arch.png';
 import bravo from '../assets/websites/bravo.png';
 import jeremy from '../assets/websites/jeremy.png';
-<<<<<<< HEAD
 import blogplace from '../assets/websites/blogplace.png';
-=======
->>>>>>> 98b312d77ef753f3c32fb14b4b555deef7cd9d5f
 
 const data = [
   {
