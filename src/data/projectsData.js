@@ -94,14 +94,6 @@ const data = [
     developer: 'Emiliano Franco',
   },
   {
-    title: 'Exercise 7',
-    url: 'https://exerc-7.netlify.app/',
-    github:
-      'https://github.com/monsterkosh/training/tree/master/HTML%20%26%20CSS/Ejercicio%207',
-    image: exerc7,
-    developer: 'Emiliano Franco',
-  },
-  {
     title: 'Exercise 5 - 1',
     url: 'https://exerc-5-1.netlify.app/',
     github:
